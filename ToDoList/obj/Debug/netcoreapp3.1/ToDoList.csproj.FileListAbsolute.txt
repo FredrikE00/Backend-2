@@ -148,3 +148,4 @@ C:\Users\Tedda\source\repos\ToDoList\ToDoList\bin\Debug\netcoreapp3.1\zh-Hant\Mi
 C:\Users\Tedda\source\repos\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Todo\Index.cshtml.g.cs
 C:\Users\Tedda\source\repos\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Todo\Create.cshtml.g.cs
 C:\Users\Tedda\source\repos\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Todo\Edit.cshtml.g.cs
+C:\Users\Tedda\source\repos\ToDoList\ToDoList\obj\Debug\netcoreapp3.1\Razor\Views\Todo\Details.cshtml.g.cs

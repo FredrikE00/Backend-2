@@ -31,6 +31,7 @@ namespace ToDoList.Controllers
         public IActionResult Create() => View();
 
 
+
         //Post /todo / createe
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -47,7 +48,17 @@ namespace ToDoList.Controllers
             }
             return View(item);
         }
+        //GET / detail
+        public async Task<ActionResult> Details(int id)
+        {
+            TodoList item = await context.ToDolist.FindAsync(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
 
+            return View(item);
+        }
 
         //GET / todo/edit
         public async Task<ActionResult> Edit(int id)
